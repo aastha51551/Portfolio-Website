@@ -1,0 +1,84 @@
+body{
+    background-color: antiquewhite;
+}
+nav{
+    background-color: bisque;
+    padding: 20px 20px 20px 20px;
+    
+}
+ nav div{
+    text-align: right;
+ }
+ nav span{
+    text-align: left;
+    font-size: 60px;
+    font-weight: bold;
+    color: black; 
+ }
+.horizontal li
+{
+    display:inline;
+    margin-right: 10px;
+    
+      }
+nav ul.horizontal li a 
+{
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 16px;
+    font-weight: bold; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    background-color: #444; 
+    transition: background-color 0.2s;
+}
+nav ul.horizontal li a:hover {
+    background-color: #777; /* Change background color on hover (darker grey button) */
+    text-decoration: none; /* Remove underline on hover */
+}
+main
+{
+    display: flex; 
+    align-items: center; 
+}
+.column
+{
+    display: flex;
+    flex-direction: column; /* Arrange items vertically in a column */
+    align-items: left; 
+}
+#hi, #name, #intro
+{
+    margin: 10px; 
+}
+
+
+#hi, #name, #intro {
+    text-align: left;
+}
+#hi
+{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#name
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+#intro
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+#pic {
+    margin-left: auto;
+}
+#pic img{
+    width:500px;
+    height:500px;
+}
+
